@@ -3,39 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hard Mission</title>
-<meta name="description" content="Hard Mission - mobil aksiyon oyunu. Geliştirici: Mehmet Dagli">
+<title>Mehmet DAĞLI - Solo Developer</title>
+<meta name="description" content="Mehmet DAĞLI - bağımsız mobil oyun geliştiricisi / independent mobile game developer.">
 <style>
-:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d}
+:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:720px;margin:0 auto;padding:48px 16px}
-h1{color:var(--gold);letter-spacing:.08em;margin:0 0 4px;font-size:2.2rem}
-.sub{color:var(--muted);margin:0 0 28px}
-.card{background:var(--card);border-radius:10px;padding:20px;margin:0 0 16px}
-h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
-a{color:var(--gold)}
-footer{color:var(--muted);font-size:.85rem;margin-top:32px}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 56px}
+.top{display:flex;justify-content:flex-end;margin-bottom:24px}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+h1{margin:0;font-size:2.1rem;letter-spacing:.03em}
+.role{color:var(--gold);margin:2px 0 18px;font-weight:600;letter-spacing:.04em}
+.intro{color:var(--muted);margin:0 0 36px;max-width:60ch}
+h2{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 12px;font-weight:600}
+.game{display:flex;gap:16px;background:var(--card);border-radius:12px;padding:16px;margin-bottom:36px;align-items:flex-start}
+.game img.icon{width:80px;height:80px;border-radius:16px;flex:none}
+.game h3{margin:0 0 4px;font-size:1.2rem}
+.game p{margin:0 0 10px;color:var(--muted)}
+.links a{display:inline-block;margin:0 14px 4px 0;color:var(--gold);text-decoration:none;font-weight:600}
+.links a:hover{text-decoration:underline}
+.contact a{color:var(--gold)}
+footer{color:var(--muted);font-size:.85rem;margin-top:48px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+@media (max-width:480px){.game{flex-direction:column}}
 </style>
 </head>
 <body>
 <main>
-<h1>HARD MISSION</h1>
-<p class="sub">Mehmet DAĞLI - Solo Developer</p>
-<div class="card">
-<h2>Oyun</h2>
-<p>Hard Mission, Özel Görev Timi'nin bir operatörü olarak "Siyah Akrep" şebekesine karşı yürütülen yedi operasyonluk, tek oyunculu bir aksiyon oyunudur: piyade, helikopter, zırhlı araç, F-16, hücumbot ve keskin nişancı bölümleri.</p>
-<p><a href="https://play.google.com/store/apps/details?id=com.dagli.hardmission">Google Play'de indir</a></p>
+<div class="top"><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<h1>Mehmet DAĞLI</h1>
+<p class="role">Solo Developer</p>
+<p class="intro"><span data-tr>Ankara'dan bağımsız mobil oyun geliştiricisi. Unreal Engine ile tek oyunculu aksiyon ve yarış oyunları yapıyorum.</span><span data-en>Independent mobile game developer from Ankara, Türkiye. I build single-player action and racing games with Unreal Engine.</span></p>
+
+<h2><span data-tr>Oyunlar</span><span data-en>Games</span></h2>
+<div class="game">
+<img class="icon" src="https://play-lh.googleusercontent.com/JoBHiA2LdReg_jiriY9NfibcSEIJTDN2GpmvZIr7bSnDjNc5ZVnb2dylt5JJ5MgIQS3MPWhPOaLHeD9LlPMjDw=s160" alt="Hard Mission">
+<div>
+<h3>Hard Mission</h3>
+<p><span data-tr>Yedi operasyonluk tek oyunculu askeri aksiyon: piyade, helikopter, zırhlı araç, F-16, hücumbot ve keskin nişancı bölümleri.</span><span data-en>A seven-operation single-player military action game: infantry, helicopter, armored vehicle, F-16, assault boat and sniper missions.</span></p>
+<div class="links">
+<a href="https://play.google.com/store/apps/details?id=com.dagli.hardmission">Google Play</a>
+<a href="hard-mission/"><span data-tr>Oyun sayfası</span><span data-en>Game page</span></a>
+<a href="https://claude.ai/artifact/MqkX8NRoS5TNGyseoy5rzs"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a>
 </div>
-<div class="card">
-<h2>Gizlilik</h2>
-<p><a href="https://claude.ai/artifact/MqkX8NRoS5TNGyseoy5rzs">Gizlilik politikası</a></p>
 </div>
-<div class="card">
-<h2>İletişim</h2>
-<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
 </div>
+
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p class="contact"><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+
 <footer>© 2026 Mehmet Dagli</footer>
 </main>
+<script>
+(function(){
+  var KEY='lang', root=document.documentElement;
+  function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+  document.getElementById('b-tr').onclick=function(){set('tr');};
+  document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
 </body>
 </html>
