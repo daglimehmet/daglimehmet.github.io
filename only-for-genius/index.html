@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Only For Genius !</title>
+<meta name="description" content="Only For Genius ! - zekâ testi / brain-teaser quiz. Mehmet DAĞLI">
+<style>
+:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.top a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+.head{display:flex;gap:20px;align-items:center;margin-bottom:24px}
+img.icon{width:112px;height:112px;border-radius:24px;flex:none}
+h1{color:var(--gold);letter-spacing:.04em;margin:0 0 4px;font-size:2rem}
+.sub{color:var(--muted);margin:0}
+.card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
+ul{margin:0;padding-left:20px}
+li{margin:0 0 4px}
+a{color:var(--gold)}
+footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+@media (max-width:480px){.head{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<div class="head">
+<img class="icon" src="https://play-lh.googleusercontent.com/EgVYXHtcxkbbkMW05yYdx5vkwblnx2h6FRCcgsio9F6TJKeT4EBeKssigETdaiIISS_K8WQN-Vyjalo350aB9w=s224" alt="Only For Genius !">
+<div>
+<h1>Only For Genius !</h1>
+<p class="sub"><span data-tr>Eğer bir dahi isen… Zekâ testi</span><span data-en>If you are a genius… A brain-teaser quiz</span></p>
+</div>
+</div>
+
+<div class="card">
+<h2><span data-tr>Uygulama</span><span data-en>The app</span></h2>
+<p><span data-tr>Her oyunda 15 soru: 5 kolay, 5 orta, 5 zor. 200'den fazla elle hazırlanmış soru ve her seferinde yeniden üretilen bulmacalar sayesinde aynı test iki kez gelmez. Her cevaptan sonra açıklamayı görürsün; eğlenirken öğrenirsin.</span><span data-en>15 questions per game: 5 easy, 5 medium, 5 hard. More than 200 hand-made questions plus freshly generated puzzles mean no two tests are the same. You see an explanation after every answer, so you learn while you play.</span></p>
+<ul>
+<li><span data-tr>Sayı dizileri ve işlem kuralları</span><span data-en>Number sequences and operation rules</span></li>
+<li><span data-tr>Sayı tabloları, sihirli kareler ve toplama piramitleri</span><span data-en>Number grids, magic squares and sum pyramids</span></li>
+<li><span data-tr>Meyve denklemleri, yaş problemleri ve mantık soruları</span><span data-en>Fruit equations, age problems and logic riddles</span></li>
+<li><span data-tr>50/50 jokeri, hız bonusu ve skor tablosu</span><span data-en>50/50 joker, speed bonus and high-score table</span></li>
+</ul>
+<p><a href="https://play.google.com/store/apps/details?id=com.dagli.vaio.onlyforgenius"><span data-tr>Google Play'de indir</span><span data-en>Get it on Google Play</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>Gizlilik</span><span data-en>Privacy</span></h2>
+<p><a href="https://claude.ai/artifact/PMkaq1PyQdTHjEQJbofE8K"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Mehmet Dagli</footer>
+</main>
+<script>
+(function(){
+  var KEY='lang', root=document.documentElement;
+  function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+  document.getElementById('b-tr').onclick=function(){set('tr');};
+  document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
+</body>
+</html>
