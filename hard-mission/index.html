@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hard Mission</title>
+<meta name="description" content="Hard Mission - mobil aksiyon oyunu / mobile action game. Mehmet DAĞLI">
+<style>
+:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.top a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+img.hero{width:100%;height:auto;border-radius:12px;display:block;margin-bottom:24px}
+h1{color:var(--gold);letter-spacing:.08em;margin:0 0 4px;font-size:2rem}
+.sub{color:var(--muted);margin:0 0 24px}
+.card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
+a{color:var(--gold)}
+footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<img class="hero" src="https://play-lh.googleusercontent.com/uekBZPa1z8PeM4yyxC1BF3dymskl0ywRUkIejZNtZFZx6Q53Psw3VYwO_8pfayhbMgmgLL7rDTo7ipCeSDbTJrs=w1280" alt="Hard Mission">
+<h1>HARD MISSION</h1>
+<p class="sub"><span data-tr>Mobil askeri aksiyon oyunu</span><span data-en>Mobile military action game</span></p>
+
+<div class="card">
+<h2><span data-tr>Oyun</span><span data-en>The game</span></h2>
+<p><span data-tr>Özel Görev Timi'nin bir operatörü olarak "Siyah Akrep" şebekesine karşı yedi operasyon. Her bölümde farklı bir rol ve araç: piyade, helikopter pilotu, zırhlı araç, F-16, hücumbot ve keskin nişancı.</span><span data-en>Seven operations against the "Black Scorpion" network as a special forces operator. Every chapter has a different role and vehicle: infantry, helicopter pilot, armored vehicle, F-16, assault boat and sniper.</span></p>
+<p><a href="https://play.google.com/store/apps/details?id=com.dagli.hardmission"><span data-tr>Google Play'de indir</span><span data-en>Get it on Google Play</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>Gizlilik</span><span data-en>Privacy</span></h2>
+<p><a href="https://claude.ai/artifact/MqkX8NRoS5TNGyseoy5rzs"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Mehmet Dagli</footer>
+</main>
+<script>
+(function(){
+  var KEY='lang', root=document.documentElement;
+  function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+  document.getElementById('b-tr').onclick=function(){set('tr');};
+  document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
+</body>
+</html>
