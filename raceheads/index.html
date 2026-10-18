@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raceheads</title>
+<meta name="description" content="Raceheads - mobil GT yarış oyunu / mobile GT racing game. Mehmet DAĞLI">
+<style>
+:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.top a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+.head{display:flex;gap:16px;align-items:center;margin-bottom:24px}
+.badge{width:88px;height:88px;border-radius:18px;flex:none;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1c6fd1,#0b2a55);color:#fff;font-weight:800;font-style:italic;font-size:2rem;letter-spacing:.02em}
+h1{color:var(--gold);letter-spacing:.08em;margin:0 0 4px;font-size:2rem}
+.sub{color:var(--muted);margin:0}
+.card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
+a{color:var(--gold)}
+footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<div class="head"><div class="badge" aria-hidden="true">RH</div>
+<div><h1>RACEHEADS</h1>
+<p class="sub"><span data-tr>Mobil GT yarış oyunu</span><span data-en>Mobile GT racing game</span></p></div></div>
+
+<div class="card">
+<h2><span data-tr>Oyun</span><span data-en>The game</span></h2>
+<p><span data-tr>Dört sınıfta (Spor, Klasik, GT, Süper) on iki özgün yarış arabası; orman, sahil, liman ve çöl pistlerinde gündüz ve gece yarışları. Tek yarış ya da kupa; nitro, hasar ve kupa madalyaları.</span><span data-en>Twelve original race cars in four classes (Sport, Classic, GT, Super); day and night races on forest, coast, harbour and desert circuits. Quick race or cups, with nitro, damage and cup medals.</span></p>
+<p><span data-tr>Yakında Google Play'de.</span><span data-en>Coming soon to Google Play.</span></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>Gizlilik</span><span data-en>Privacy</span></h2>
+<p><a href="https://claude.ai/artifact/UZJtjEY5JJruwH6BJZBqQM"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Mehmet Dagli</footer>
+</main>
+<script>
+(function(){
+  var KEY='lang', root=document.documentElement;
+  function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+  document.getElementById('b-tr').onclick=function(){set('tr');};
+  document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
+</body>
+</html>
