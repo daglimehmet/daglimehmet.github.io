@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Only For Genius !</title>
-<meta name="description" content="Only For Genius ! - zekâ testi / brain-teaser quiz. Mehmet DAĞLI">
+<meta name="description" content="Only For Genius ! - Düşün. Çöz. Parla. 290+ soru, görsel bulmacalar ve 4 oyun moduyla zekâ oyunu / brain-teaser game. Mehmet DAĞLI">
 <style>
 :root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
 *{box-sizing:border-box}
@@ -18,12 +18,12 @@ main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
 .lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
 .lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
 .head{display:flex;gap:20px;align-items:center;margin-bottom:24px}
-img.icon{width:112px;height:112px;border-radius:24px;flex:none}
+svg.icon{width:112px;height:112px;border-radius:24px;flex:none;display:block}
 h1{color:var(--gold);letter-spacing:.04em;margin:0 0 4px;font-size:2rem}
 .sub{color:var(--muted);margin:0}
 .card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
 h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
-ul{margin:0;padding-left:20px}
+ul{margin:0 0 12px;padding-left:20px}
 li{margin:0 0 4px}
 a{color:var(--gold)}
 footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
@@ -40,10 +40,26 @@ html[lang="en"] [data-en]{display:revert}
 <div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
 
 <div class="head">
-<img class="icon" src="https://play-lh.googleusercontent.com/EgVYXHtcxkbbkMW05yYdx5vkwblnx2h6FRCcgsio9F6TJKeT4EBeKssigETdaiIISS_K8WQN-Vyjalo350aB9w=s224" alt="Only For Genius !">
+<svg class="icon" viewBox="0 0 108 108" role="img" aria-label="Only For Genius !">
+<defs>
+<linearGradient id="ofg-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6A11CB"/><stop offset="0.5" stop-color="#B621FE"/><stop offset="1" stop-color="#FF5F6D"/></linearGradient>
+<linearGradient id="ofg-disc" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#3B0F7A"/><stop offset="1" stop-color="#7B1FA2"/></linearGradient>
+</defs>
+<rect width="108" height="108" fill="url(#ofg-bg)"/>
+<circle cx="54" cy="54" r="40" fill="url(#ofg-disc)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1.6"/>
+<g transform="translate(54 53) scale(1.18) translate(-54 -52)">
+<path fill="#FF70A8" stroke="#B0124F" stroke-width="1.6" stroke-linejoin="round" d="M50.5,67 Q51,74.5 49,79 Q54,81 59,79 Q57,74.5 57.5,67 Z"/>
+<path fill="#FF5C9A" stroke="#B0124F" stroke-width="1.6" stroke-linejoin="round" d="M53.6,30 C49.6,26.5 43,27.5 41,32 C35.5,31 31.5,35.5 33,40.5 C27.5,42.5 27.5,49.5 31,52.5 C27.5,56.5 30,63 35.5,63.5 C35.5,69 41,72 45.5,69.5 C48,73.5 53.1,73.5 53.6,70 Z"/>
+<path fill="#FF86B6" stroke="#B0124F" stroke-width="1.6" stroke-linejoin="round" d="M54.4,30 C58.4,26.5 65,27.5 67,32 C72.5,31 76.5,35.5 75,40.5 C80.5,42.5 80.5,49.5 77,52.5 C80.5,56.5 78,63 72.5,63.5 C72.5,69 67,72 62.5,69.5 C60,73.5 54.9,73.5 54.4,70 Z"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" d="M46,33.5 Q49.5,37.5 45.5,42 M37,45 Q42.5,44.5 44,50 M39.5,57.5 Q45,55 47.5,60.5 M49.5,47 Q52.5,51.5 49.5,56 M62,33.5 Q58.5,37.5 62.5,42 M71,45 Q65.5,44.5 64,50 M68.5,57.5 Q63,55 60.5,60.5 M58.5,47 Q55.5,51.5 58.5,56"/>
+<path fill="#FFD54F" d="M80,22 Q80,29 87,29 Q80,29 80,36 Q80,29 73,29 Q80,29 80,22 Z"/>
+<path fill="#FFFFFF" d="M27,68 Q27,72 31,72 Q27,72 27,76 Q27,72 23,72 Q27,72 27,68 Z"/>
+<path fill="#FFE082" d="M24,30 Q24,33 27,33 Q24,33 24,36 Q24,33 21,33 Q24,33 24,30 Z"/>
+</g>
+</svg>
 <div>
 <h1>Only For Genius !</h1>
-<p class="sub"><span data-tr>Eğer bir dahi isen… Zekâ testi</span><span data-en>If you are a genius… A brain-teaser quiz</span></p>
+<p class="sub"><span data-tr>Düşün. Çöz. Parla. · Zekâ oyunu</span><span data-en>Think. Solve. Shine. · Brain-teaser game</span></p>
 </div>
 </div>
 
@@ -54,13 +70,34 @@ html[lang="en"] [data-en]{display:revert}
 </div>
 
 <div class="card">
-<h2><span data-tr>Uygulama</span><span data-en>The app</span></h2>
-<p><span data-tr>Her oyunda 15 soru: 5 kolay, 5 orta, 5 zor. 200'den fazla elle hazırlanmış soru ve her seferinde yeniden üretilen bulmacalar sayesinde aynı test iki kez gelmez. Her cevaptan sonra açıklamayı görürsün; eğlenirken öğrenirsin.</span><span data-en>15 questions per game: 5 easy, 5 medium, 5 hard. More than 200 hand-made questions plus freshly generated puzzles mean no two tests are the same. You see an explanation after every answer, so you learn while you play.</span></p>
+<h2><span data-tr>4 oyun modu</span><span data-en>4 game modes</span></h2>
 <ul>
-<li><span data-tr>Sayı dizileri ve işlem kuralları</span><span data-en>Number sequences and operation rules</span></li>
-<li><span data-tr>Sayı tabloları, sihirli kareler ve toplama piramitleri</span><span data-en>Number grids, magic squares and sum pyramids</span></li>
-<li><span data-tr>Meyve denklemleri, yaş problemleri ve mantık soruları</span><span data-en>Fruit equations, age problems and logic riddles</span></li>
-<li><span data-tr>50/50 jokeri, hız bonusu ve skor tablosu</span><span data-en>50/50 joker, speed bonus and high-score table</span></li>
+<li><span data-tr>Klasik Test: kolaydan zora 15 soru, son soru 2× puanlı Meydan Okuma</span><span data-en>Classic Test: 15 questions from easy to hard, ending with a double-points Challenge</span></li>
+<li><span data-tr>Günlük Meydan Okuma: her gün herkese aynı 10 yeni soru, serini koru</span><span data-en>Daily Challenge: the same 10 new questions for everyone every day, keep your streak</span></li>
+<li><span data-tr>Zamana Karşı: 90 saniyede olabildiğince çok doğru</span><span data-en>Against the Clock: as many correct answers as you can in 90 seconds</span></li>
+<li><span data-tr>Pratik: konunu seç, acele etmeden çalış</span><span data-en>Practice: pick a topic and play at your own pace</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span data-tr>Sorular</span><span data-en>Puzzles</span></h2>
+<p><span data-tr>290'dan fazla soru ve sınırsız yeni bulmaca üreten üreteçler sayesinde her oyun farklı. Her cevaptan sonra açıklamayı görürsün; eğlenirken öğrenirsin.</span><span data-en>More than 290 questions plus generators that create endless new puzzles, so every game is different. You see an explanation after every answer, so you learn while you play.</span></p>
+<ul>
+<li><span data-tr>Sayı dizileri ve gizli işlem kuralları</span><span data-en>Number sequences and secret operation rules</span></li>
+<li><span data-tr>Meyve denklemleri, sayı tabloları, sihirli kareler ve piramitler</span><span data-en>Fruit equations, number grids, magic squares and pyramids</span></li>
+<li><span data-tr>Görsel desen bulmacaları ve ok dizileri</span><span data-en>Visual pattern puzzles and arrow sequences</span></li>
+<li><span data-tr>Grafik okuma, analog saat ve şekil sayma soruları</span><span data-en>Chart reading, analogue clocks and shape counting</span></li>
+<li><span data-tr>Mantık ve hesap soruları</span><span data-en>Logic and maths brain teasers</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span data-tr>İlerlemeni takip et</span><span data-en>Track your progress</span></h2>
+<ul>
+<li><span data-tr>12 rozet, istatistikler, en uzun seri ve rekorlar</span><span data-en>12 badges, stats, best streak and records</span></li>
+<li><span data-tr>Eğlence amaçlı tahmini IQ puanı</span><span data-en>A just-for-fun estimated IQ score</span></li>
+<li><span data-tr>50/50 jokeri ve Klasik / Zamana Karşı skor tabloları</span><span data-en>50/50 joker and Classic / Against the Clock high score tables</span></li>
+<li><span data-tr>Uygulama içinden Türkçe / İngilizce dil seçimi</span><span data-en>In-app Turkish / English language switch</span></li>
 </ul>
 <p><a href="https://play.google.com/store/apps/details?id=com.dagli.vaio.onlyforgenius"><span data-tr>Google Play'de indir</span><span data-en>Get it on Google Play</span></a></p>
 </div>
