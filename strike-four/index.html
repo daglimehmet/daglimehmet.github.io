@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strike Four</title>
+<meta name="description" content="Strike Four - mobil 4v4 takım ölüm maçı / mobile 4v4 team deathmatch shooter. Mehmet DAĞLI">
+<style>
+:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.top a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+.head{display:flex;gap:20px;align-items:center;margin-bottom:24px}
+img.icon{width:112px;height:112px;border-radius:24px;flex:none;display:block}
+h1{color:var(--gold);letter-spacing:.08em;margin:0 0 4px;font-size:2rem}
+.sub{color:var(--muted);margin:0}
+.card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
+ul{margin:0 0 12px;padding-left:20px}
+li{margin:0 0 4px}
+a{color:var(--gold)}
+footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+.feature{padding:0;overflow:hidden}
+.feature img{display:block;width:100%;height:auto}
+.shots{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.shots img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+@media (max-width:560px){.shots{grid-template-columns:1fr}}
+@media (max-width:480px){.head{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<div class="head"><img class="icon" src="strike-four-icon.png" alt="Strike Four">
+<div><h1>STRIKE FOUR</h1>
+<p class="sub"><span data-tr>Mobil 4v4 takım ölüm maçı</span><span data-en>Mobile 4v4 team deathmatch shooter</span></p></div></div>
+
+<div class="card feature">
+<img src="feature-1024x500.jpg" alt="Strike Four" width="1024" height="500">
+</div>
+
+<div class="card">
+<h2><span data-tr>Oyun</span><span data-en>The game</span></h2>
+<p><span data-tr>Strike Four, birinci şahıs bakışlı, 4'e 4 takım ölüm maçı oynanan bir mobil nişancı oyunudur. İki takım, kısa ve hızlı maçlarda skor sınırına önce ulaşmak için çarpışır. Boş kalan her koltuğu bir bot doldurur; böylece maç her zaman 4'e 4 başlar.</span><span data-en>Strike Four is a first-person 4v4 team deathmatch shooter for mobile. Two teams clash in short, fast matches to reach the score limit first. Every empty seat is filled by a bot, so a match always starts as 4v4.</span></p>
+<ul>
+<li><span data-tr>İnternet: hızlı oyuna gir, oda kur ya da 6 haneli oda koduyla arkadaşının odasına katıl</span><span data-en>Online: jump into quick play, create a room or join a friend with a 6-digit room code</span></li>
+<li><span data-tr>Yerel ağ: aynı Wi-Fi ağındaki arkadaşlarınla internet olmadan oyna</span><span data-en>Local network: play with friends on the same Wi-Fi without an internet connection</span></li>
+<li><span data-tr>Botlarla antrenman: internet bağlantısı gerektirmeden botlara karşı tek başına oyna</span><span data-en>Bot training: play alone against bots, no internet connection needed</span></li>
+<li><span data-tr>2 harita: geniş bir askeri üs ve kompakt, simetrik bir garnizon</span><span data-en>2 maps: a large military base and a compact, symmetric garrison</span></li>
+<li><span data-tr>12 karakter: her takımın kendi karakter seti var, rakip takım her zaman farklı görünür</span><span data-en>12 characters: each team has its own character set, so the other team always looks different</span></li>
+<li><span data-tr>4 silah: piyade tüfeği, hafif makineli, keskin nişancı tüfeği (dürbünlü) ve tabanca</span><span data-en>4 weapons: assault rifle, SMG, scoped sniper rifle and pistol</span></li>
+<li><span data-tr>Dokunmatik kontroller, hassasiyet ve grafik ayarları, 30/60 FPS; Türkçe ve İngilizce arayüz</span><span data-en>Touch controls, sensitivity and graphics settings, 30/60 FPS; English and Turkish interface</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span data-tr>Ekran görüntüleri</span><span data-en>Screenshots</span></h2>
+<div data-tr><div class="shots">
+<img src="tr_01.jpg" alt="Garnizon haritasında çatışma" width="1280" height="720" loading="lazy">
+<img src="tr_03.jpg" alt="Keskin nişancı dürbünü" width="1280" height="720" loading="lazy">
+<img src="tr_04.jpg" alt="Lobi: takımlar, silah ve karakter seçimi" width="1280" height="720" loading="lazy">
+<img src="tr_06.jpg" alt="Maç sonu skor tablosu" width="1280" height="720" loading="lazy">
+</div></div>
+<div data-en><div class="shots">
+<img src="en_01.jpg" alt="Combat on the Garrison map" width="1280" height="720" loading="lazy">
+<img src="en_03.jpg" alt="Sniper scope" width="1280" height="720" loading="lazy">
+<img src="en_04.jpg" alt="Lobby: teams, weapon and character selection" width="1280" height="720" loading="lazy">
+<img src="en_06.jpg" alt="End of match scoreboard" width="1280" height="720" loading="lazy">
+</div></div>
+</div>
+
+<div class="card">
+<h2><span data-tr>Adil ve sade</span><span data-en>Fair and simple</span></h2>
+<ul>
+<li><span data-tr>Uygulama içi satın alma yok.</span><span data-en>No in-app purchases.</span></li>
+<li><span data-tr>Maç içinde reklam yok. Maç sonlarında zaman zaman reklam gösterilir; isteğe bağlı bir ödüllü reklam izleyerek 3 maç reklamsız oynayabilirsin.</span><span data-en>No ads during matches. Ads may appear between matches; you can watch an optional rewarded ad to play 3 matches ad-free.</span></li>
+<li><span data-tr>Hesap açman gerekmez; oyun içi adını kendin seçersin.</span><span data-en>No account needed; you choose your in-game name.</span></li>
+<li><span data-tr>Çok oyunculu bağlantı Epic Online Services ile sağlanır.</span><span data-en>Multiplayer connectivity is provided by Epic Online Services.</span></li>
+</ul>
+<p><span data-tr>Google Play incelemesinde; yakında Google Play'de.</span><span data-en>In Google Play review; coming soon to Google Play.</span> <a href="https://play.google.com/store/apps/details?id=com.dagli.strikefour">Google Play</a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>Gizlilik</span><span data-en>Privacy</span></h2>
+<p><a href="privacy.html"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Mehmet Dagli</footer>
+</main>
+<script>
+(function(){
+  var KEY='lang', root=document.documentElement;
+  function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+  document.getElementById('b-tr').onclick=function(){set('tr');};
+  document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
+</body>
+</html>
