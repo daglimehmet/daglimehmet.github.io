@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haftanın Sesi</title>
+<meta name="description" content="Haftanın Sesi - her hafta yeniden başlayan ses yarışması: 60 saniyelik sesini kaydet, topluluk oylasın / a weekly voice contest: record up to 60 seconds, the community votes. Mehmet DAĞLI">
+<style>
+:root{--bg:#0b0b14;--fg:#f2f0ff;--muted:#9a96c0;--mor:#7c5cff;--pembe:#ff6b9d;--card:#15152a;--line:#272745}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.top a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:#fff;background:var(--mor);border-color:var(--mor)}
+.head{display:flex;gap:20px;align-items:center;margin-bottom:24px}
+img.icon{width:112px;height:112px;border-radius:24px;flex:none;display:block}
+h1{color:var(--fg);letter-spacing:.02em;margin:0 0 4px;font-size:2rem}
+.sub{color:var(--muted);margin:0}
+.card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--pembe)}
+ul{margin:0 0 12px;padding-left:20px}
+li{margin:0 0 4px}
+li::marker{color:var(--mor)}
+a{color:var(--mor)}
+footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+.feature{padding:0;overflow:hidden}
+.feature img{display:block;width:100%;height:auto}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.shots img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+@media (max-width:480px){.head{flex-direction:column;align-items:flex-start}.shots{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<div class="head"><img class="icon" src="ikon-512.png" alt="Haftanın Sesi">
+<div><h1>Haftanın Sesi</h1>
+<p class="sub"><span data-tr>Her hafta yeniden başlayan ses yarışması</span><span data-en>A voice contest that starts over every week</span></p></div></div>
+
+<div class="card feature">
+<img src="one-cikan-1024x500.png" alt="Haftanın Sesi" width="1024" height="500">
+</div>
+
+<div class="card">
+<h2><span data-tr>Uygulama</span><span data-en>The app</span></h2>
+<p><span data-tr>Mikrofona bas, en fazla 60 saniye söyle ve yarışmaya gönder. Topluluk dinlesin, oy versin. Pazar gecesi en çok oyu alan kayıt Haftanın Sesi olur.</span><span data-en>Tap the mic, sing or speak for up to 60 seconds and enter the contest. The community listens and votes. On Sunday night the recording with the most votes becomes the Voice of the Week.</span></p>
+<ul>
+<li><span data-tr>Hafta boyunca tek oy hakkın var; fikrin değişirse oyunu başka bir kayda taşıyabilirsin</span><span data-en>You have one vote per week; you can move it to another recording if you change your mind</span></li>
+<li><span data-tr>Birincinin rozeti profilinde kalır, kaydı orada dinlenmeye devam eder</span><span data-en>The winner's badge stays on their profile, and the recording stays there to be played</span></li>
+<li><span data-tr>Hafta kapanınca kazanan dışındaki kayıtlar silinir; her pazartesi temiz sayfa</span><span data-en>When the week closes, every recording except the winner is deleted; a clean slate every Monday</span></li>
+<li><span data-tr>Kaydın oy aldığında bildirim gelir; kimin oy verdiği yazmaz</span><span data-en>You get a notification when your recording receives a vote; it never says who voted</span></li>
+</ul>
+<p><span data-tr>Yalnızca kendi sesini kaydedebilirsin; dışarıdan müzik yüklenemez. Uygulamanın arayüzü Türkçedir.</span><span data-en>You can only record your own voice; outside music can't be uploaded. The app's interface is in Turkish.</span></p>
+<p><a href="https://play.google.com/store/apps/details?id=com.dagli.haftaninsesi"><span data-tr>Google Play'de indir</span><span data-en>Get it on Google Play</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>Ekran görüntüleri</span><span data-en>Screenshots</span></h2>
+<div class="shots">
+<img src="1-ana-sayfa.png" alt="Ana sayfa" width="1080" height="2340" loading="lazy">
+<img src="2-studyo.png" alt="Stüdyo" width="1080" height="2340" loading="lazy">
+<img src="3-profil.png" alt="Profil" width="1080" height="2340" loading="lazy">
+</div>
+</div>
+
+<div class="card">
+<h2><span data-tr>Güvenlik</span><span data-en>Safety</span></h2>
+<ul>
+<li><span data-tr>Uygunsuz bir kaydı şikâyet edebilir, kullanıcıları engelleyebilirsin</span><span data-en>You can report a recording and block users</span></li>
+<li><span data-tr>Yeterince şikâyet alan bir kayıt, incelenene kadar akıştan kalkar</span><span data-en>A recording that gets enough reports is hidden from the feed until reviewed</span></li>
+<li><span data-tr>Hesabını ve verilerini uygulamanın içinden silebilirsin</span><span data-en>You can delete your account and data from inside the app</span></li>
+<li><span data-tr>Uygulamada reklam gösterilir; kayıt yaparken reklam çıkmaz</span><span data-en>The app shows ads; no ads appear while you are recording</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span data-tr>Gizlilik</span><span data-en>Privacy</span></h2>
+<p><a href="https://claude.ai/artifact/Br9HpJ8jwZJWdXVajN9EQG"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a><br>
+<a href="https://claude.ai/artifact/C4a4qnGyJTL6ndfk77HKVU"><span data-tr>Hesap silme</span><span data-en>Account deletion</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Mehmet Dagli</footer>
+</main>
+<script>
+(function(){
+var KEY='lang', root=document.documentElement;
+function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+document.getElementById('b-tr').onclick=function(){set('tr');};
+document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
+</body>
+</html>
