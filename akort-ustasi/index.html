@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akort Ustası</title>
+<meta name="description" content="Akort Ustası: Keman Akort - adım adım rehberli keman akort uygulaması / violin tuner with a step-by-step guide. Mehmet DAĞLI">
+<style>
+:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.top a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+.head{display:flex;gap:20px;align-items:center;margin-bottom:24px}
+img.icon{width:112px;height:112px;border-radius:24px;flex:none;display:block}
+h1{color:var(--gold);letter-spacing:.04em;margin:0 0 4px;font-size:2rem}
+.sub{color:var(--muted);margin:0}
+.card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
+ul{margin:0 0 12px;padding-left:20px}
+li{margin:0 0 4px}
+a{color:var(--gold)}
+footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+.shots{grid-template-columns:repeat(4,1fr);gap:10px}
+.shots[data-tr]{display:grid}
+html[lang="en"] .shots[data-en]{display:grid}
+.shots img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+@media (max-width:560px){.shots{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.head{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<div class="head"><img class="icon" src="https://play-lh.googleusercontent.com/VSE4mxi80P-L5WuG8r9mcoq7mSbxngCHxVKFI-IuUoDC_1ibNA5-G7fttw-6H6A4cEUxVoaCp1YA1y-B5cMf=s256" alt="Akort Ustası">
+<div><h1>Akort Ustası</h1>
+<p class="sub"><span data-tr>Keman akort · adım adım</span><span data-en>Violin tuner · step by step</span></p></div></div>
+
+<div class="card">
+<h2><span data-tr>Uygulama</span><span data-en>The app</span></h2>
+<p><span data-tr>Akort Ustası kemanınızı hızlı ve doğru akort etmenizi sağlar. Kemanı hiç bilmiyor olsanız bile uygulama sizi adım adım yönlendirir: sesin pes mi tiz mi olduğunu söyler, ince vidayı mı burguyu mu hangi yöne çevireceğinizi gösterir.</span><span data-en>Akort Ustası tunes your violin quickly and accurately, and guides you step by step even if you have never held a violin before: it tells you whether the note is low or high, and whether to turn the fine tuner or the peg, and which way.</span></p>
+<ul>
+<li><span data-tr>Yeni başlayanlar için resimli rehber: teller, burgular, ince akort vidaları, köprü ve akort sırası</span><span data-en>Illustrated beginner guide: strings, pegs, fine tuners, bridge and tuning order</span></li>
+<li><span data-tr>Hz ölçekli ibreli gösterge ya da hassas strobe göstergesi, perde geçmişi grafiği</span><span data-en>Needle gauge with a scale in Hz or a precise strobe display, plus a pitch history graph</span></li>
+<li><span data-tr>Çalınan teli otomatik algılar; isterseniz teli elle seçin</span><span data-en>Detects the string you play automatically, or pick a string yourself</span></li>
+<li><span data-tr>Saf beşli (yaylı çalgıcıların akordu) ya da eşit akort; referans La 415–450 Hz</span><span data-en>Pure fifths (how string players tune) or equal temperament; reference A from 415 to 450 Hz</span></li>
+<li><span data-tr>"Dinle": seçilen telin doğru sesi gerçek bir keman kaydından</span><span data-en>"Listen": the selected string's correct pitch from a real violin recording</span></li>
+<li><span data-tr>Kromatik mod, hassas mod, Do-Re-Mi ya da C-D-E nota adları</span><span data-en>Chromatic mode, precision mode, Do-Re-Mi or C-D-E note names</span></li>
+<li><span data-tr>Türkçe ve İngilizce arayüz, ekran okuyucu desteği</span><span data-en>Turkish and English interface, screen reader support</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span data-tr>Ekran görüntüleri</span><span data-en>Screenshots</span></h2>
+<div class="shots" data-tr>
+<img src="https://play-lh.googleusercontent.com/EviMoM80EAMnbK2rymWDJtABg8oZB-DKMCpgaaWbljgBZtERfJcKKwPKd1txNuQECN9Bw-VHApe26fs13ThIDQ=w540" alt="Rehber: kemanı tanı" width="1080" height="1920" loading="lazy">
+<img src="https://play-lh.googleusercontent.com/uIXWwTmTXNxkU3byKLXzOAR9SY2Lg1Ks_FGVFM_8wRHC1CFy-Lxg1S1TxJdnoscI4l5lc75qPO-C-DTfOXopUA=w540" alt="Akort: tel doğru seste" width="1080" height="1920" loading="lazy">
+<img src="https://play-lh.googleusercontent.com/6PMXXDzYBO8vsPrItcIc0F7lvAylyfLNfG0uZbGHgzHLPDW0EQx62PA07ycWHklbVfaYJgZzWSO6DTy6734n9w=w540" alt="Strobe gösterge" width="1080" height="1920" loading="lazy">
+<img src="https://play-lh.googleusercontent.com/0h5Dz-AfS9tbGBTglwBdNDar9REX4FjAznhCUXueoSnZMnoHmTbd3JQQ0zDz5d8ezrnJnghvfZ4pIzGNfq_gVg=w540" alt="Ayarlar" width="1080" height="1920" loading="lazy">
+</div>
+<div class="shots" data-en>
+<img src="https://play-lh.googleusercontent.com/ZTnNehxBdXcso2f0wXqeGbYuvjV-Y9gulprSBSMbYDM653vIOMLjwfmf0LSib4ci2VTlt_9Bis73QOP6kFlH=w540" alt="Guide: meet the violin" width="1080" height="1920" loading="lazy">
+<img src="https://play-lh.googleusercontent.com/hH798DieSxJsRKDiEcA2WS7npwgGFyjPmzhCA9E0MA1OaO4MO8_SIcpm8xY02O0FFnSj7gQZDrzfo_MFofnDHgU=w540" alt="Tuning: string in tune" width="1080" height="1920" loading="lazy">
+<img src="https://play-lh.googleusercontent.com/FGbh3xaR4Ey4hQfAB93oAXEYn3_v08CrfXju_xJGN910SBTyoH-hhWygb2uXDerk_e_oyP-xnnm_Oi3xsxhJHdQ=w540" alt="Strobe display" width="1080" height="1920" loading="lazy">
+<img src="https://play-lh.googleusercontent.com/PUHOIBWHsiqwfCQCk_KRbKldMq5_Q5xJ8MSZ558Y1MXYrC96yqdDyxx32r0vP1Hx8fwyasWsj6mbD-vwA9N2=w540" alt="Settings" width="1080" height="1920" loading="lazy">
+</div>
+</div>
+
+<div class="card">
+<h2><span data-tr>Mikrofon ve veriler</span><span data-en>Microphone and data</span></h2>
+<ul>
+<li><span data-tr>Mikrofon yalnızca perde ölçümü için kullanılır; ses telefonda işlenir, kaydedilmez, hiçbir yere gönderilmez.</span><span data-en>The microphone is used only to measure pitch; sound is processed on the phone, never recorded or sent anywhere.</span></li>
+<li><span data-tr>Hesap ya da oturum açma yok. Uygulama reklam içerir; akort sırasında geçiş reklamı çıkmaz.</span><span data-en>No account or sign-in. The app contains ads; no full-screen ad appears while you tune.</span></li>
+</ul>
+<p><a href="https://play.google.com/store/apps/details?id=com.dagli.akortustasi"><span data-tr>Google Play'de indir</span><span data-en>Get it on Google Play</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>Gizlilik</span><span data-en>Privacy</span></h2>
+<p><a href="https://claude.ai/artifact/4zUXmMPg78E8Dtz9cdM6Cp"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Mehmet Dagli<br><span data-tr>Referans keman sesleri: University of Iowa Electronic Music Studios, Musical Instrument Samples.</span><span data-en>Reference violin sounds: University of Iowa Electronic Music Studios, Musical Instrument Samples.</span></footer>
+</main>
+<script>
+(function(){
+var KEY='lang', root=document.documentElement;
+function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+document.getElementById('b-tr').onclick=function(){set('tr');};
+document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
+</body>
+</html>
