@@ -1,0 +1,79 @@
+{
+ "surum": 1,
+ "kitaplar": [
+  {
+   "id": "kurk-mantolu-madonna",
+   "ad": "Kürk Mantolu Madonna",
+   "yazar": "Sabahattin Ali",
+   "yazarYillari": "1907–1948",
+   "yil": 1943,
+   "tur": "Roman",
+   "renk": "#6E2B3A",
+   "aciklama": "Ankara'da iş arayan genç anlatıcı, bir şirkette sessiz, silik bir çevirmen olan Raif Efendi ile tanışır. Raif Efendi'nin ölümünden önce yakılmasını istediği defter, gençliğinde Berlin'de bir sergide gördüğü 'kürk mantolu Madonna' tablosuyla ve ressam Maria Puder'le yaşadığı derin aşkı anlatır. Türk edebiyatının en çok okunan romanlarından biri.",
+   "kaynak": "Vikikaynak",
+   "bolumler": [
+    {
+     "ad": "Bölüm 1",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-01.mp3",
+     "sure": 1676
+    },
+    {
+     "ad": "Bölüm 2",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-02.mp3",
+     "sure": 1663
+    },
+    {
+     "ad": "Bölüm 3",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-03.mp3",
+     "sure": 1886
+    },
+    {
+     "ad": "Bölüm 4",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-04.mp3",
+     "sure": 1509
+    },
+    {
+     "ad": "Bölüm 5",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-05.mp3",
+     "sure": 1679
+    },
+    {
+     "ad": "Bölüm 6",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-06.mp3",
+     "sure": 1737
+    },
+    {
+     "ad": "Bölüm 7",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-07.mp3",
+     "sure": 1789
+    },
+    {
+     "ad": "Bölüm 8",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-08.mp3",
+     "sure": 1634
+    },
+    {
+     "ad": "Bölüm 9",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-09.mp3",
+     "sure": 1705
+    },
+    {
+     "ad": "Bölüm 10",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-10.mp3",
+     "sure": 1728
+    },
+    {
+     "ad": "Bölüm 11",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-11.mp3",
+     "sure": 1825
+    },
+    {
+     "ad": "Bölüm 12",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-12.mp3",
+     "sure": 1523
+    }
+   ]
+  }
+ ],
+ "guncelleme": "2026-11-17"
+}
