@@ -73,7 +73,185 @@
      "sure": 1523
     }
    ]
+  },
+  {
+   "id": "omer-seyfettin-secme-hikayeler",
+   "ad": "Seçme Hikâyeler",
+   "yazar": "Ömer Seyfettin",
+   "yazarYillari": "1884–1920",
+   "yil": 1920,
+   "tur": "Öykü",
+   "renk": "#2F4F5F",
+   "aciklama": "Türk öykücülüğünün ustası Ömer Seyfettin'den 33 unutulmaz hikâye: çocukluğun vicdan azabını anlatan Kaşağı, onurlu elçinin hikâyesi Pembe İncili Kaftan, esir Türk denizcilerin destanı Forsa, Diyet, Falaka, Bomba ve daha niceleri. Her hikâye ayrı bir bölüm.",
+   "kaynak": "Vikikaynak",
+   "bolumler": [
+    {
+     "ad": "Kaşağı",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-01.mp3",
+     "sure": 481
+    },
+    {
+     "ad": "Pembe İncili Kaftan",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-02.mp3",
+     "sure": 1528
+    },
+    {
+     "ad": "Forsa",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-03.mp3",
+     "sure": 612
+    },
+    {
+     "ad": "Diyet",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-04.mp3",
+     "sure": 1334
+    },
+    {
+     "ad": "Falaka",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-05.mp3",
+     "sure": 837
+    },
+    {
+     "ad": "Bomba",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-06.mp3",
+     "sure": 2331
+    },
+    {
+     "ad": "Başını Vermeyen Şehit",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-07.mp3",
+     "sure": 1361
+    },
+    {
+     "ad": "Kesik Bıyık",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-08.mp3",
+     "sure": 297
+    },
+    {
+     "ad": "Perili Köşk",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-09.mp3",
+     "sure": 817
+    },
+    {
+     "ad": "Yüksek Ökçeler",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-10.mp3",
+     "sure": 341
+    },
+    {
+     "ad": "Topuz",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-11.mp3",
+     "sure": 822
+    },
+    {
+     "ad": "Kütük",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-12.mp3",
+     "sure": 2491
+    },
+    {
+     "ad": "Tuğra",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-13.mp3",
+     "sure": 394
+    },
+    {
+     "ad": "Ferman",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-14.mp3",
+     "sure": 1605
+    },
+    {
+     "ad": "Üç Nasihat",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-15.mp3",
+     "sure": 1158
+    },
+    {
+     "ad": "Kurbağa Duası",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-16.mp3",
+     "sure": 837
+    },
+    {
+     "ad": "İlk Namaz",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-17.mp3",
+     "sure": 614
+    },
+    {
+     "ad": "Rüşvet",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-18.mp3",
+     "sure": 279
+    },
+    {
+     "ad": "Pireler",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-19.mp3",
+     "sure": 735
+    },
+    {
+     "ad": "Kurumuş Ağaçlar",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-20.mp3",
+     "sure": 482
+    },
+    {
+     "ad": "Kıskançlık",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-21.mp3",
+     "sure": 952
+    },
+    {
+     "ad": "Elma",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-22.mp3",
+     "sure": 263
+    },
+    {
+     "ad": "Havyar",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-23.mp3",
+     "sure": 485
+    },
+    {
+     "ad": "Bir Kayışın Tesiri",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-24.mp3",
+     "sure": 297
+    },
+    {
+     "ad": "Teselli",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-25.mp3",
+     "sure": 1005
+    },
+    {
+     "ad": "Mehdi",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-26.mp3",
+     "sure": 884
+    },
+    {
+     "ad": "Nasıl Kurtarmış?",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-27.mp3",
+     "sure": 377
+    },
+    {
+     "ad": "Niçin Zengin Olmamış?",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-28.mp3",
+     "sure": 1188
+    },
+    {
+     "ad": "Çakmak",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-29.mp3",
+     "sure": 581
+    },
+    {
+     "ad": "Büyücü",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-30.mp3",
+     "sure": 985
+    },
+    {
+     "ad": "Binecek Şey",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-31.mp3",
+     "sure": 764
+    },
+    {
+     "ad": "Yüzakı",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-32.mp3",
+     "sure": 304
+    },
+    {
+     "ad": "Müjde",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-33.mp3",
+     "sure": 384
+    }
+   ]
   }
  ],
- "guncelleme": "2026-11-17"
+ "guncelleme": "2026-11-18"
 }
