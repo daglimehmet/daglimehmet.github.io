@@ -1,0 +1,322 @@
+{
+ "surum": 1,
+ "kitaplar": [
+  {
+   "id": "kurk-mantolu-madonna",
+   "ad": "Kürk Mantolu Madonna",
+   "yazar": "Sabahattin Ali",
+   "yazarYillari": "1907–1948",
+   "yil": 1943,
+   "tur": "Roman",
+   "renk": "#6E2B3A",
+   "aciklama": "Ankara'da iş arayan genç anlatıcı, bir şirkette sessiz, silik bir çevirmen olan Raif Efendi ile tanışır. Raif Efendi'nin ölümünden önce yakılmasını istediği defter, gençliğinde Berlin'de bir sergide gördüğü 'kürk mantolu Madonna' tablosuyla ve ressam Maria Puder'le yaşadığı derin aşkı anlatır. Türk edebiyatının en çok okunan romanlarından biri.",
+   "kaynak": "Vikikaynak",
+   "bolumler": [
+    {
+     "ad": "Bölüm 1",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-01.mp3",
+     "sure": 1676
+    },
+    {
+     "ad": "Bölüm 2",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-02.mp3",
+     "sure": 1663
+    },
+    {
+     "ad": "Bölüm 3",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-03.mp3",
+     "sure": 1886
+    },
+    {
+     "ad": "Bölüm 4",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-04.mp3",
+     "sure": 1509
+    },
+    {
+     "ad": "Bölüm 5",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-05.mp3",
+     "sure": 1679
+    },
+    {
+     "ad": "Bölüm 6",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-06.mp3",
+     "sure": 1737
+    },
+    {
+     "ad": "Bölüm 7",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-07.mp3",
+     "sure": 1789
+    },
+    {
+     "ad": "Bölüm 8",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-08.mp3",
+     "sure": 1634
+    },
+    {
+     "ad": "Bölüm 9",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-09.mp3",
+     "sure": 1705
+    },
+    {
+     "ad": "Bölüm 10",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-10.mp3",
+     "sure": 1728
+    },
+    {
+     "ad": "Bölüm 11",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-11.mp3",
+     "sure": 1825
+    },
+    {
+     "ad": "Bölüm 12",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/kurk-mantolu-madonna/kurk-mantolu-madonna-12.mp3",
+     "sure": 1523
+    }
+   ]
+  },
+  {
+   "id": "omer-seyfettin-secme-hikayeler",
+   "ad": "Seçme Hikâyeler",
+   "yazar": "Ömer Seyfettin",
+   "yazarYillari": "1884–1920",
+   "yil": 1920,
+   "tur": "Öykü",
+   "renk": "#2F4F5F",
+   "aciklama": "Türk öykücülüğünün ustası Ömer Seyfettin'den 33 unutulmaz hikâye: çocukluğun vicdan azabını anlatan Kaşağı, onurlu elçinin hikâyesi Pembe İncili Kaftan, esir Türk denizcilerin destanı Forsa, Diyet, Falaka, Bomba ve daha niceleri. Her hikâye ayrı bir bölüm.",
+   "kaynak": "Vikikaynak",
+   "bolumler": [
+    {
+     "ad": "Kaşağı",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-01.mp3",
+     "sure": 481
+    },
+    {
+     "ad": "Pembe İncili Kaftan",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-02.mp3",
+     "sure": 1528
+    },
+    {
+     "ad": "Forsa",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-03.mp3",
+     "sure": 612
+    },
+    {
+     "ad": "Diyet",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-04.mp3",
+     "sure": 1334
+    },
+    {
+     "ad": "Falaka",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-05.mp3",
+     "sure": 837
+    },
+    {
+     "ad": "Bomba",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-06.mp3",
+     "sure": 2331
+    },
+    {
+     "ad": "Başını Vermeyen Şehit",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-07.mp3",
+     "sure": 1361
+    },
+    {
+     "ad": "Kesik Bıyık",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-08.mp3",
+     "sure": 297
+    },
+    {
+     "ad": "Perili Köşk",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-09.mp3",
+     "sure": 817
+    },
+    {
+     "ad": "Yüksek Ökçeler",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-10.mp3",
+     "sure": 341
+    },
+    {
+     "ad": "Topuz",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-11.mp3",
+     "sure": 822
+    },
+    {
+     "ad": "Kütük",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-12.mp3",
+     "sure": 2491
+    },
+    {
+     "ad": "Tuğra",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-13.mp3",
+     "sure": 394
+    },
+    {
+     "ad": "Ferman",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-14.mp3",
+     "sure": 1605
+    },
+    {
+     "ad": "Üç Nasihat",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-15.mp3",
+     "sure": 1158
+    },
+    {
+     "ad": "Kurbağa Duası",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-16.mp3",
+     "sure": 837
+    },
+    {
+     "ad": "İlk Namaz",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-17.mp3",
+     "sure": 614
+    },
+    {
+     "ad": "Rüşvet",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-18.mp3",
+     "sure": 279
+    },
+    {
+     "ad": "Pireler",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-19.mp3",
+     "sure": 735
+    },
+    {
+     "ad": "Kurumuş Ağaçlar",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-20.mp3",
+     "sure": 482
+    },
+    {
+     "ad": "Kıskançlık",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-21.mp3",
+     "sure": 952
+    },
+    {
+     "ad": "Elma",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-22.mp3",
+     "sure": 263
+    },
+    {
+     "ad": "Havyar",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-23.mp3",
+     "sure": 485
+    },
+    {
+     "ad": "Bir Kayışın Tesiri",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-24.mp3",
+     "sure": 297
+    },
+    {
+     "ad": "Teselli",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-25.mp3",
+     "sure": 1005
+    },
+    {
+     "ad": "Mehdi",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-26.mp3",
+     "sure": 884
+    },
+    {
+     "ad": "Nasıl Kurtarmış?",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-27.mp3",
+     "sure": 377
+    },
+    {
+     "ad": "Niçin Zengin Olmamış?",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-28.mp3",
+     "sure": 1188
+    },
+    {
+     "ad": "Çakmak",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-29.mp3",
+     "sure": 581
+    },
+    {
+     "ad": "Büyücü",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-30.mp3",
+     "sure": 985
+    },
+    {
+     "ad": "Binecek Şey",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-31.mp3",
+     "sure": 764
+    },
+    {
+     "ad": "Yüzakı",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-32.mp3",
+     "sure": 304
+    },
+    {
+     "ad": "Müjde",
+     "url": "https://github.com/daglimehmet/kitapdinle-ses/releases/download/omer-seyfettin-secme-hikayeler/omer-seyfettin-secme-hikayeler-33.mp3",
+     "sure": 384
+    }
+   ]
+  }
+ ],
+ "guncelleme": "2026-11-20",
+ "uygulamalar": [
+  {
+   "id": "com.dagli.crystaldash",
+   "ad": "Pırıl ve Kristal Kalp",
+   "aciklama": "Elmasları topla, Kristal Kalp'i yeniden parlat: rengârenk bir macera oyunu.",
+   "tur": "Oyun",
+   "simge": "https://play-lh.googleusercontent.com/JySarAokh7zFprNrO17pzuJzk2UND62hZmGpQUZfzuNih-A764ZD_h7Xi_iYL87ge7GgnQNKOhkrzCOJktnX-w=s192-rw"
+  },
+  {
+   "id": "com.dagli.raceheads",
+   "ad": "RaceHeads",
+   "aciklama": "12 özgün araç, 5 rakip: telefona özel GT yarış oyunu.",
+   "tur": "Oyun",
+   "simge": "https://play-lh.googleusercontent.com/6xv7SCzPfeyeBUGbFXmmJZ8wIPFUHXn0W79CqqiF_L1GDsgLVI8y0cJtMg0Srsgj7e0yYQorW9X-fdxbkuIgkWY=s192-rw"
+  },
+  {
+   "id": "com.dagli.hardmission",
+   "ad": "Zor Görev",
+   "aciklama": "Siyah Akrep şebekesine karşı sekiz operasyonluk aksiyon oyunu.",
+   "tur": "Oyun",
+   "simge": "https://play-lh.googleusercontent.com/JoBHiA2LdReg_jiriY9NfibcSEIJTDN2GpmvZIr7bSnDjNc5ZVnb2dylt5JJ5MgIQS3MPWhPOaLHeD9LlPMjDw=s192-rw"
+  },
+  {
+   "id": "com.dagli.vaio.onlyforgenius",
+   "ad": "Only For Genius !",
+   "aciklama": "Sayı dizileri, mantık soruları ve görsel bulmacalarla zekâ oyunu.",
+   "tur": "Oyun",
+   "simge": "https://play-lh.googleusercontent.com/KtAMUCZtmZd0vdhe7i3OZvcXE57cN8nIHLR0QfpREkb2VjVr-kX97SfMcIqEdFBRVlF_lQF5NQfK8PMuHGhR=s192-rw"
+  },
+  {
+   "id": "com.dagli.minikakademi",
+   "ad": "Minik Akademi: Okul Öncesi",
+   "aciklama": "Okul öncesi çocuklar için eğlenceli ve eğitici oyunlar.",
+   "tur": "Uygulama",
+   "simge": "https://play-lh.googleusercontent.com/UcftxIeJE8h23HhHWxg46veNxaaZbcAP3HBZYPTMd4nvabEOTfedNa1kyH5kLJR_ta_JiAgcVqIZMBsrHXN5Dg=s192-rw"
+  },
+  {
+   "id": "com.dagli.minikkasif",
+   "ad": "Minik Kaşif: Gölge Eşleştirme",
+   "aciklama": "Küçükler için gölge eşleştirme oyunu.",
+   "tur": "Uygulama",
+   "simge": "https://play-lh.googleusercontent.com/GxObfDnDuf4F3zRYRpJbc3q_BIYEyGQH-nQqBLY0VTAkT-HDpmc_9hyQ6vhcAKcwll8lIZM5BiUcEf4Kxyc5qA=s192-rw"
+  },
+  {
+   "id": "com.dagli.akortustasi",
+   "ad": "Akort Ustası: Keman Akort",
+   "aciklama": "Adım adım rehber, gerçek keman sesi, ibre ve strobe ile keman akordu.",
+   "tur": "Uygulama",
+   "simge": "https://play-lh.googleusercontent.com/VSE4mxi80P-L5WuG8r9mcoq7mSbxngCHxVKFI-IuUoDC_1ibNA5-G7fttw-6H6A4cEUxVoaCp1YA1y-B5cMf=s192-rw"
+  },
+  {
+   "id": "com.dagli.haftaninsesi",
+   "ad": "Haftanın Sesi",
+   "aciklama": "Her hafta yeniden başlayan ses yarışması: söyle, gönder, oy ver.",
+   "tur": "Uygulama",
+   "simge": "https://play-lh.googleusercontent.com/wWESOsuj6aJ4ZYQPl2O8Jm1652d9zRriScqQ1kAH74bKGQLbEK6B9INMpQ2uw83Z63uX77D_J5-FTEICPDqF8Q=s192-rw"
+  },
+  {
+   "id": "com.dagli.denk",
+   "ad": "Denk: Önce Cevap",
+   "aciklama": "Önce cevaplar, sonra yüzler: cevaplara dayalı tanışma uygulaması.",
+   "tur": "Uygulama",
+   "simge": "https://play-lh.googleusercontent.com/XLquPsduSs1OtUMXXsgLTh4ay0h3zmcmoBHQ9xqRkj62nYeS2QNdL471H98AAsEDqjx0MC2XWyaM8s547fMbJg=s192-rw"
+  }
+ ]
+}
