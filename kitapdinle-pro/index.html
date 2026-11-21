@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KitapDinle Pro</title>
+<meta name="description" content="KitapDinle Pro: Türk klasiklerini reklamsız sesli kitap olarak dinleyin / listen to Turkish classics as ad-free audiobooks. Mehmet DAĞLI">
+<style>
+:root{--bg:#0e1011;--fg:#e9e6dc;--muted:#a7a397;--gold:#f2bd45;--card:#181b1d;--line:#2a2e31}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.top a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.lang button{background:none;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:.85rem;padding:4px 10px;cursor:pointer}
+.lang button:first-child{border-radius:6px 0 0 6px}
+.lang button:last-child{border-radius:0 6px 6px 0;border-left:0}
+.lang button.on{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+.head{display:flex;gap:20px;align-items:center;margin-bottom:24px}
+img.icon{width:112px;height:112px;border-radius:24px;flex:none;display:block}
+h1{color:var(--gold);letter-spacing:.04em;margin:0 0 4px;font-size:2rem}
+.sub{color:var(--muted);margin:0}
+.card{background:var(--card);border-radius:12px;padding:20px;margin:0 0 16px}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--gold)}
+ul{margin:0 0 12px;padding-left:20px}
+li{margin:0 0 4px}
+a{color:var(--gold)}
+footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+[data-en]{display:none}
+html[lang="en"] [data-tr]{display:none}
+html[lang="en"] [data-en]{display:revert}
+.shots{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.shots img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+@media (max-width:560px){.shots{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.head{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><a href="../">← Mehmet DAĞLI</a><div class="lang"><button id="b-tr" type="button">TR</button><button id="b-en" type="button">EN</button></div></div>
+
+<div class="head"><img class="icon" src="simge.png" alt="KitapDinle Pro">
+<div><h1>KitapDinle Pro</h1>
+<p class="sub"><span data-tr>Türk klasikleri · reklamsız</span><span data-en>Turkish classics · ad-free audiobooks</span></p></div></div>
+
+<div class="card">
+<h2><span data-tr>Uygulama</span><span data-en>The app</span></h2>
+<p><span data-tr>KitapDinle Pro, KitapDinle'nin reklamsız ücretli sürümüdür. Bir kez satın alın; reklam yok, abonelik yok.</span><span data-en>KitapDinle Pro is the ad-free paid edition of KitapDinle. Buy once; no ads, no subscription.</span></p>
+<ul>
+<li><span data-tr>Hiç reklam yok</span><span data-en>No ads at all</span></li>
+<li><span data-tr>İnternetsiz dinleme: kitabı indirin, uçakta ve yolda dinleyin</span><span data-en>Offline listening: download a book and listen on a plane or on the road</span></li>
+<li><span data-tr>Yer imleri ve notlar: önemli anı işaretleyin, tek dokunuşla dönün</span><span data-en>Bookmarks and notes: mark a moment and jump back with one tap</span></li>
+<li><span data-tr>Yeni kitaplar ücretsiz sürümden önce Pro'da</span><span data-en>New books arrive in Pro before the free edition</span></li>
+<li><span data-tr>Sabahattin Ali'nin Kürk Mantolu Madonna'sı ve Ömer Seyfettin'in Kaşağı, Pembe İncili Kaftan, Forsa gibi 33 hikâyesi; her ay yeni kitaplar</span><span data-en>Sabahattin Ali's Madonna in a Fur Coat and 33 stories by Ömer Seyfettin; new books every month</span></li>
+<li><span data-tr>Tüm eserler kamu malıdır (telif süresi dolmuştur)</span><span data-en>All works are in the public domain</span></li>
+<li><span data-tr>Kaldığınız yeri otomatik hatırlar; "Devam et" ile tek dokunuşta sürdürün</span><span data-en>Remembers where you stopped; resume with a single tap</span></li>
+<li><span data-tr>Ekran kapalıyken çalmaya devam eder; kilit ekranı, kulaklık ve Bluetooth denetimleri</span><span data-en>Keeps playing with the screen off; lock screen, headset and Bluetooth controls</span></li>
+<li><span data-tr>0,75× ile 2× arası dinleme hızı, 10 sn geri / 30 sn ileri</span><span data-en>Playback speed from 0.75× to 2×, 10 s back / 30 s forward</span></li>
+<li><span data-tr>Uyku zamanlayıcı: 5–60 dakika ya da bölüm bitince</span><span data-en>Sleep timer: 5–60 minutes or at the end of the chapter</span></li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span data-tr>Ekran görüntüleri</span><span data-en>Screenshots</span></h2>
+<div class="shots">
+<img src="ekran1.png" alt="Ana ekran / Home" width="1080" height="2400" loading="lazy">
+<img src="ekran2.png" alt="Kitap / Book" width="1080" height="2400" loading="lazy">
+<img src="ekran3.png" alt="Oynatıcı / Player" width="1080" height="2400" loading="lazy">
+<img src="ekran4.png" alt="Yer imi / Bookmark" width="1080" height="2400" loading="lazy">
+</div>
+</div>
+
+<div class="card">
+<h2><span data-tr>Seslendirme ve veriler</span><span data-en>Narration and data</span></h2>
+<ul>
+<li><span data-tr>Kitaplar yapay ses teknolojisiyle seslendirilmiştir; metinler Vikikaynak'tan alınır.</span><span data-en>Books are narrated with synthetic speech; texts come from Turkish Wikisource.</span></li>
+<li><span data-tr>Hesap yok, reklam yok, hiçbir kişisel veri toplanmaz; dinleme bilgileri, yer imleri ve notlar yalnızca telefonda saklanır.</span><span data-en>No account, no ads, no personal data collected; progress, bookmarks and notes stay on the phone.</span></li>
+</ul>
+<p><a href="https://play.google.com/store/apps/details?id=com.dagli.kitapdinle.pro"><span data-tr>Google Play'de indir</span><span data-en>Get it on Google Play</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>Gizlilik</span><span data-en>Privacy</span></h2>
+<p><a href="https://claude.ai/artifact/CLu7TWrCiKWcHK1a4P92Fn"><span data-tr>Gizlilik politikası</span><span data-en>Privacy policy</span></a></p>
+</div>
+
+<div class="card">
+<h2><span data-tr>İletişim</span><span data-en>Contact</span></h2>
+<p><a href="mailto:mehmt.dagli@gmail.com">mehmt.dagli@gmail.com</a></p>
+</div>
+
+<footer>© 2026 Mehmet Dagli<br><span data-tr>Metinler: Vikikaynak (kamu malı eserler).</span><span data-en>Texts: Turkish Wikisource (public domain works).</span></footer>
+</main>
+<script>
+(function(){
+var KEY='lang', root=document.documentElement;
+function set(l){ root.lang=l; document.getElementById('b-tr').className=l==='tr'?'on':''; document.getElementById('b-en').className=l==='en'?'on':''; try{localStorage.setItem(KEY,l);}catch(e){} }
+var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+set(saved || ((navigator.language||'').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en'));
+document.getElementById('b-tr').onclick=function(){set('tr');};
+document.getElementById('b-en').onclick=function(){set('en');};
+})();
+</script>
+</body>
+</html>
